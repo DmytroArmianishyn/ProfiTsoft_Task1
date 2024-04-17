@@ -1,0 +1,44 @@
+[
+  {
+    "name": "LeBron James",
+    "position": "Small forward",
+    "team": "Los Angeles Lakers",
+    "number": 6
+  },
+  {
+    "name": "Kevin Durant",
+    "position": "Power forward",
+    "team": "Brooklyn Nets",
+    "number": 7
+  },
+  {
+    "name": "Kawhi Leonard",
+    "position": "Small forward",
+    "team": "LA Clippers",
+    "number": 2
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "position": "Power forward",
+    "team": "Milwaukee Bucks",
+    "number": 34
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "position": "Power forward",
+    "team": "Milwaukee Bucks",
+    "number": 34
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "position": "Power forward",
+    "team": "Milwaukee Bucks",
+    "number": 34
+  },
+  {
+    "name": "Paul George",
+    "position": "Power forward",
+    "team": "LA Clippers",
+    "number": 13
+  }
+]

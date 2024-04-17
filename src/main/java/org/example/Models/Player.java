@@ -1,16 +1,16 @@
 package org.example.Models;
 
+/**
+ * A class with getters and setters and without an Argument constructor that represents a Player with its dependencies
+ */
+
 public class Player {
     private  String name;
     private String position;
     private  String team;
     private  int number;
 
-
-
-    public Player() {
-
-    }
+    public Player() {}
 
     public String getName() {
         return name;
@@ -51,5 +51,32 @@ public class Player {
                 ", team='" + team + '\'' +
                 ", number=" + number +
                 '}';
+    }
+
+    /**
+     *
+     * @param category The user chooses which category the statistics will be generated for
+     * @return Returns the category for which to make statistics
+     */
+    public String category_chose(String category){
+        String result="";
+        switch (category){
+
+            case"team":
+                result= team;
+                break;
+            case "name":
+                result= name;
+                break;
+            case "position":
+               result= position;
+               break;
+            case "number":
+              result= String.valueOf(number);
+                break;
+            default:
+                throw new RuntimeException("Wrong category selected");
+        }
+        return result;
     }
 }
