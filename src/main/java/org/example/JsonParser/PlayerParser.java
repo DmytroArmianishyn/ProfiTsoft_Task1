@@ -15,7 +15,6 @@ import java.util.List;
 /**
  * Class for parsing a JSON file
  */
-
 public class PlayerParser {
     /**
      * A method that reads a file
@@ -23,6 +22,9 @@ public class PlayerParser {
      * @return jason's thong
      */
     public  String reade(File file){
+        if (file == null) {
+            throw new IllegalArgumentException("File cannot be null");
+        }
         StringBuilder builder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(
                 new FileReader(file)))
@@ -36,7 +38,6 @@ public class PlayerParser {
         }
         return builder.toString();
     }
-
     /**
      * Parses json format and creates players, then adds them to the player array
      * @param mapper Class object ObjectMapper
@@ -52,6 +53,4 @@ public class PlayerParser {
         }
         return players;
     }
-
-
 }

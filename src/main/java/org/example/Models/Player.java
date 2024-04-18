@@ -3,7 +3,6 @@ package org.example.Models;
 /**
  * A class with getters and setters and without an Argument constructor that represents a Player with its dependencies
  */
-
 public class Player {
     private  String name;
     private String position;
@@ -52,9 +51,7 @@ public class Player {
                 ", number=" + number +
                 '}';
     }
-
     /**
-     *
      * @param category The user chooses which category the statistics will be generated for
      * @return Returns the category for which to make statistics
      */

@@ -5,6 +5,7 @@ import org.example.JsonParser.PlayerParser;
 import org.example.Models.Player;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -15,20 +16,21 @@ import java.util.concurrent.TimeUnit;
  */
 public class DirectoryReader {
     /**
-     * A method that uses streams to read files from a directory and create players and add them to the List
+     A method that uses streams to read files from a directory and create players and add them to the List
      * @param directory Directory with files
-     * @param players List of players from file
      * @param mapper Class object ObjectMapper
+     * @return
      */
-    public void read(File directory, List<Player> players, ObjectMapper mapper) {
+    public List<Player> read(File directory, ObjectMapper mapper) {
+        List<Player> players = new ArrayList<>();
         if ((directory.isDirectory() && directory.exists())) {
             File[] files = directory.listFiles();
             if (files == null || files.length == 0) {
                 System.out.println("There are no JSON files to process in the specified folder.");
-                return;
+                throw new RuntimeException("There are no JSON files to process in the specified folder.");
             }
             PlayerParser parser = new PlayerParser();
-            ExecutorService service = Executors.newFixedThreadPool(2 );
+            ExecutorService service = Executors.newFixedThreadPool(4 );
             for (File file : files) {
                 Thread thread = new Thread(() -> {
                     String json = parser.reade(file);
@@ -44,5 +46,6 @@ public class DirectoryReader {
                 e.printStackTrace();
             }
         }
+        return players;
     }
 }

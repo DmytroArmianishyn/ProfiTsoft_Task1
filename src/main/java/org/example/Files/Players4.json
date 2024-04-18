@@ -1,38 +1,38 @@
 [
   {
-    "name": "LeBron James",
-    "position": "Small forward",
+    "name": "Russell Westbrook",
+    "position": "Point guard",
     "team": "Los Angeles Lakers",
-    "number": 6
+    "number": 0
   },
   {
-    "name": "Kevin Durant",
+    "name": "Zion Williamson",
     "position": "Power forward",
-    "team": "Brooklyn Nets",
+    "team": "New Orleans Pelicans",
+    "number": 1
+  },
+  {
+    "name": "Chris Paul",
+    "position": "Point guard",
+    "team": "Phoenix Suns",
+    "number": 3
+  },
+  {
+    "name": "Karl-Anthony Towns",
+    "position": "Center",
+    "team": "Minnesota Timberwolves",
+    "number": 32
+  },
+  {
+    "name": "Jaylen Brown",
+    "position": "Shooting guard",
+    "team": "Boston Celtics",
     "number": 7
   },
   {
-    "name": "Kawhi Leonard",
-    "position": "Small forward",
-    "team": "LA Clippers",
-    "number": 2
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
+    "name": "Rudy Gobert",
+    "position": "Center",
+    "team": "Utah Jazz",
+    "number": 27
   }
 ]

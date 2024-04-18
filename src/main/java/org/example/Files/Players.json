@@ -1,38 +1,50 @@
 [
   {
-    "name": "LeBron James",
-    "position": "Small forward",
-    "team": "Los Angeles Lakers",
+    "name": "DeMar DeRozan",
+    "position": "Shooting guard",
+    "team": "Chicago Bulls",
+    "number": 11
+  },
+  {
+    "name": "Kristaps Porziņģis",
+    "position": "Power forward",
+    "team": "Dallas Mavericks",
     "number": 6
   },
   {
-    "name": "Kevin Durant",
-    "position": "Power forward",
-    "team": "Brooklyn Nets",
+    "name": "Kyle Lowry",
+    "position": "Point guard",
+    "team": "Miami Heat",
     "number": 7
   },
   {
-    "name": "Kawhi Leonard",
+    "name": "Jamal Murray",
+    "position": "Point guard",
+    "team": "Denver Nuggets",
+    "number": 27
+  },
+  {
+    "name": "Julius Randle",
+    "position": "Power forward",
+    "team": "New York Knicks",
+    "number": 30
+  },
+  {
+    "name": "Khris Middleton",
     "position": "Small forward",
-    "team": "LA Clippers",
+    "team": "Milwaukee Bucks",
+    "number": 22
+  },
+  {
+    "name": "John Collins",
+    "position": "Power forward",
+    "team": "Atlanta Hawks",
+    "number": 20
+  },
+  {
+    "name": "Shai Gilgeous-Alexander",
+    "position": "Point guard",
+    "team": "Oklahoma City Thunder",
     "number": 2
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
   }
 ]

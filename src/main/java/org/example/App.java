@@ -31,9 +31,8 @@ public class App
             throw new RuntimeException("Bad size arguments");
         }
         ObjectMapper mapper = new ObjectMapper();
-        List<Player> players= new ArrayList<>();
         DirectoryReader reader = new DirectoryReader();
-        reader.read(new File(args[0]),players,mapper);
+        List<Player> players = reader.read(new File(args[0]),mapper);
         StatCounter counter = new StatCounter();
         counter.countStat(players,args[1]);
         XmlWriter writer = new XmlWriter();

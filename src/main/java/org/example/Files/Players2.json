@@ -1,44 +1,38 @@
 [
   {
-    "name": "LeBron James",
+    "name": "Ben Simmons",
+    "position": "Point guard",
+    "team": "Philadelphia 76ers",
+    "number": 25
+  },
+  {
+    "name": "Deandre Ayton",
+    "position": "Center",
+    "team": "Phoenix Suns",
+    "number": 22
+  },
+  {
+    "name": "Donovan Mitchell",
+    "position": "Shooting guard",
+    "team": "Utah Jazz",
+    "number": 45
+  },
+  {
+    "name": "Brandon Ingram",
     "position": "Small forward",
-    "team": "Los Angeles Lakers",
-    "number": 6
+    "team": "New Orleans Pelicans",
+    "number": 14
   },
   {
-    "name": "Kevin Durant",
-    "position": "Power forward",
-    "team": "Brooklyn Nets",
-    "number": 7
+    "name": "Ja Morant",
+    "position": "Point guard",
+    "team": "Memphis Grizzlies",
+    "number": 12
   },
   {
-    "name": "Kawhi Leonard",
-    "position": "Small forward",
-    "team": "LA Clippers",
-    "number": 2
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Giannis Antetokounmpo",
-    "position": "Power forward",
-    "team": "Milwaukee Bucks",
-    "number": 34
-  },
-  {
-    "name": "Paul George",
-    "position": "Power forward",
-    "team": "LA Clippers",
+    "name": "Bam Adebayo",
+    "position": "Center",
+    "team": "Miami Heat",
     "number": 13
   }
 ]
