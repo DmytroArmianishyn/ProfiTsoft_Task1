@@ -11,6 +11,13 @@ public class Player {
 
     public Player() {}
 
+    public Player(String name, String position, String team, int number) {
+        this.name = name;
+        this.position = position;
+        this.team = team;
+        this.number = number;
+    }
+
     public String getName() {
         return name;
     }

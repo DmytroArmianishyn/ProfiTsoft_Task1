@@ -14,7 +14,6 @@ public class StatCounter {
         return stat;
     }
     /**
-     *
      * @param players List of players
      * @param category Category for which to generate statistics
      * @return Map<String,Integer> Which has a key is the value of the category and the value is the number of repetitions in the directory

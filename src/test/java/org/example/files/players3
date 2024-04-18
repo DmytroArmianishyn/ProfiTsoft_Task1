@@ -1,0 +1,86 @@
+[
+  {
+    "name": "LeBron James",
+    "position": "Small forward",
+    "team": "Los Angeles Lakers",
+    "number": 6
+  },
+  {
+    "name": "Kevin Durant",
+    "position": "Power forward",
+    "team": "Brooklyn Nets",
+    "number": 7
+  },
+  {
+    "name": "Kawhi Leonard",
+    "position": "Small forward",
+    "team": "LA Clippers",
+    "number": 2
+  },
+  {
+    "name": "Giannis Antetokounmpo",
+    "position": "Power forward",
+    "team": "Milwaukee Bucks",
+    "number": 34
+  },
+  {
+    "name": "Stephen Curry",
+    "position": "Point guard",
+    "team": "Golden State Warriors",
+    "number": 30
+  },
+  {
+    "name": "James Harden",
+    "position": "Shooting guard",
+    "team": "Brooklyn Nets",
+    "number": 13
+  },
+  {
+    "name": "Luka Doncic",
+    "position": "Point guard",
+    "team": "Dallas Mavericks",
+    "number": 77
+  },
+  {
+    "name": "Joel Embiid",
+    "position": "Center",
+    "team": "Philadelphia 76ers",
+    "number": 21
+  },
+  {
+    "name": "Anthony Davis",
+    "position": "Power forward",
+    "team": "Los Angeles Lakers",
+    "number": 3
+  },
+  {
+    "name": "Nikola Jokic",
+    "position": "Center",
+    "team": "Denver Nuggets",
+    "number": 15
+  },
+  {
+    "name": "Damian Lillard",
+    "position": "Point guard",
+    "team": "Portland Trail Blazers",
+    "number": 0
+  },
+  {
+    "name": "Jayson Tatum",
+    "position": "Small forward",
+    "team": "Boston Celtics",
+    "number": 0
+  },
+  {
+    "name": "Devin Booker",
+    "position": "Shooting guard",
+    "team": "Phoenix Suns",
+    "number": 1
+  },
+  {
+    "name": "Jimmy Butler",
+    "position": "Small forward",
+    "team": "Miami Heat",
+    "number": 22
+  }
+]

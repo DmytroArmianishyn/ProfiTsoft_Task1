@@ -30,7 +30,7 @@ public class DirectoryReader {
                 throw new RuntimeException("There are no JSON files to process in the specified folder.");
             }
             PlayerParser parser = new PlayerParser();
-            ExecutorService service = Executors.newFixedThreadPool(4 );
+            ExecutorService service = Executors.newFixedThreadPool(2);
             for (File file : files) {
                 Thread thread = new Thread(() -> {
                     String json = parser.reade(file);

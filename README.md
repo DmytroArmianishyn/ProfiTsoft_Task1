@@ -1,36 +1,34 @@
-# Консольний парсер JSON файлів
+# Console parser of JSON files
 
-Цей проект є консольною програмою, написаною на Java, яка парсить перелік JSON-файлів з даними основної сутності та формує статистику в розрізі обраних атрибутів.
+This project is a console program written in Java that parses a list of JSON files with data from the main entity and generates statistics in the context of selected attributes.
+## Description
+The program is designed to analyze data presented in JSON format. It reads data from JSON files containing information about players and calculates statistics by a selected attribute, such as name, position, team, or player number.
+## Requirements
+- Java 8 or higher
+- Maven (for building and managing dependencies)
 
-## Опис
-Програма призначена для аналізу даних, представлених у форматі JSON. Вона зчитує дані з JSON-файлів, які містять інформацію про гравців, та обчислює статистику за обраним атрибутом, наприклад, іменем, позицією, командою або номером гравця.
+## Arguments
+- args[0]-Path to the folder with JSON files
+- args[1]-Category for which statistics will be built
+- args[2]-Path where to write the XML file
 
-## Вимоги
-- Java 8 або вище
-- Maven (для збирання та управління залежностями)
+##  Usage
+1. Build the project using Maven
+2. Run the program by passing the command line arguments
+3. 
+## Description of classes and functionality
+- `Player.java`: A class representing a player, with methods for accessing attributes and a method for selecting a category for statistics.
+- `PlayerParser.java`: A class for parsing JSON files and creating player objects.
+- `DirectoryReader.java`: Class for reading JSON files from the specified directory and creating a list of players.
+- `StatCounter.java`: Class for calculating statistics for the selected attribute.
+- `XmlWriter.java`: A class for writing statistics to an XML file.
 
-## Аргументи
-- args[0]-Шлях до папки д JSON файлами
-- args[1]-Категорія по якій буде будуватися статистика 
-- args[2]-Шлях куди записувати XML файл
+## Streams
+* using 2 streams enter 148ms
+* using 4 streams enter 151ms
+* using 8 streams enter 155ms
 
-## Використання
-1. Зберіть проект за допомогою Maven
-2. Запустіть програму, передавши аргументи командного рядка
-
-## Опис класів і функціонала
-- `Player.java`: Клас, що представляє гравця, з методами доступу до атрибутів та методом для вибору категорії для статистики.
-- `PlayerParser.java`: Клас для парсингу JSON-файлів та створення об'єктів гравців.
-- `DirectoryReader.java`: Клас для зчитування JSON-файлів з вказаної директорії та створення списку гравців.
-- `StatCounter.java`: Клас для обчислення статистики за обраним атрибутом.
-- `XmlWriter.java`: Клас для запису статистики у файл у форматі XML.
-
-## Потоки
-* використовуючи 2 потоки воходить 148ms
-* використовуючи 4 потоки воходить 151ms
-* використовуючи 8 потоки воходить 155ms
-
-## Приклад JSON файламу
+## Example of a JSON file
 ```json
 [
 {"name": "Devin Booker",
@@ -51,7 +49,7 @@
 "number": 3
 }]
 ```
-##Приклад результату XML файлу по атрибуту team
+##Example of XML file result by team attribute
 ```xml
 <statistics>
     <item>
